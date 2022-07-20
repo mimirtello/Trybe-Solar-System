@@ -1,3 +1,109 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
 .App {
   text-align: center;
+ 
 }
+body{
+  background-image:url('./images/background.png') ;
+  color: beige;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+  color: beige;
+  margin:auto;
+  align-items: center;
+  text-align: center;
+}
+
+.solar-system{
+  display:flex;
+  flex-wrap: wrap;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.imagem{
+  width: 170px;
+}
+
+.missions {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  width: 800px;
+}
+
+.mission-card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20rem;
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  margin: 0 1rem 1rem 0;
+  font-size: 1.1rem;
+  box-shadow: 0 0 5px 3px hsla(209, 61%, 75%, 0.788);
+
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  align-items: center;
+  text-align: center;
+}
+
+p {
+  display: flex;
+  padding:10px;
+}
+
+.title {
+display: flex;
+margin-bottom: 100px;
+margin-left: 40%;
+margin-right: 40%;
+font-size: 40px;
+}
+
+.planet-name {
+ padding: 10px;
+}
+
+.planet-card{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+}
+
