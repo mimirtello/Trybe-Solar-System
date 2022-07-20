@@ -10,7 +10,6 @@ html {
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
-  font-weight: normal;
 }
 
 ol, ul {
@@ -19,56 +18,52 @@ ol, ul {
 
 img {
   max-width: 100%;
-  height: auto;
 }
-.App {
-  text-align: center;
- 
-}
-body{
-  background-image:url('./images/background.png') ;
+
+body {
+  background-image: url('./images/background.png');
   color: beige;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial , Helvetica , sans-serif;
 }
-h2{
-  color: beige;
-  margin:auto;
+
+h2 {
   align-items: center;
+  color: beige;
+  margin: auto;
   text-align: center;
 }
 
-.solar-system{
-  display:flex;
+.solar-system {
+  display: flex;
   flex-wrap: wrap;
   margin-left: 15%;
   margin-right: 15%;
 }
 
-.imagem{
+.imagem {
   width: 170px;
 }
 
 .missions {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
-  margin-top: 50px;
+  justify-content: space-around;
+  margin-top: 10%;
   width: 800px;
 }
 
 .mission-card {
+  background-color: white;
+  border-radius: 5%;
+  box-shadow: 0 0 5px 3px hsla(209, 61%, 75%, 0.788);
+  color: black;
   display: flex;
   flex-wrap: wrap;
-  width: 20rem;
-  background-color: white;
-  color: black;
-  border-radius: 1rem;
+  font-size: 1.1rem;
+  margin: 0 1rem 1rem 0;
   padding: 0.5rem;
   text-align: center;
-  margin: 0 1rem 1rem 0;
-  font-size: 1.1rem;
-  box-shadow: 0 0 5px 3px hsla(209, 61%, 75%, 0.788);
-
+  width: 20rem;
 }
 
 .container {
@@ -84,26 +79,26 @@ h1 {
 
 p {
   display: flex;
-  padding:10px;
+  padding: 10px;
 }
 
 .title {
-display: flex;
-margin-bottom: 100px;
-margin-left: 40%;
-margin-right: 40%;
-font-size: 40px;
+  display: flex;
+  font-size: 40px;
+  margin-bottom: 100px;
+  margin-left: 40%;
+  margin-right: 40%;
 }
 
 .planet-name {
- padding: 10px;
+  padding: 10px;
 }
 
-.planet-card{
+.planet-card {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content:center;
-  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
